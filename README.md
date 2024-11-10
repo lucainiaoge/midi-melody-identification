@@ -1,7 +1,7 @@
 # midi-melody-identification
 A simple method to identify the melody channel/instrument in a multi-track midi file
 
-## Usage
+## Usage Example
 
 ```
 python inference.py -midi-path dataset_cmu_melody/test/california.mid
