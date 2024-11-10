@@ -9,9 +9,9 @@ python inference.py -midi-path dataset_cmu_melody/test/california.mid
 
 ## Basic method
 I improve the melody probability calculation method of [Melody Identification in Standard MIDI Files](https://www.cs.cmu.edu/~rbd/papers/melody-identification-midi-smc2019.pdf) in several ways:
-- We add additional features including polyphony rate and note activation density
-- We calculate the melody probability (binary classification) providing both the features of current track and the average features of other tracks in the same midi file
-- After model selection, we adopt sklearn HistGradientBoostingClassifier as the base model
+- Additional features: including polyphony rate and note activation density
+- Melody probability calculation: treat the problem as binary classification, provided both the features of current track and the average features of other tracks in the same midi file
+- Model selection: sklearn HistGradientBoostingClassifier as the base model
 
 In case you are curious about the model selection: checkout "2-model_selection.ipynb"
 
