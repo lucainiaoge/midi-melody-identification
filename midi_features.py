@@ -1,5 +1,4 @@
 import numpy as np
-import mido
 import pretty_midi
 
 MIDI_INSTRUMENTS = {
