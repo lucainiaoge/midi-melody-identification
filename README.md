@@ -28,4 +28,4 @@ However, I observe that the melody channel labels in this dataset is not well-or
 
 In this repo, "melody_channel_ids_new.txt" is provided, a correctness-guarenteed melody channel label file for the CMU Computer Music Analysis Dataset training set (in the original dataset, the corresponding label file is named "melody_label.txt" in the train folder).
 
-In this repo, a notebook "1-melody_track_identification.ipynb" is provided for comparison with my new labels and the original labels.
+In this repo, a notebook "1-dataset_annotation.ipynb" is provided for comparison with my new labels and the original labels.
